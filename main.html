@@ -1,0 +1,236 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+    <link rel="stylesheet" href="./css/main.css">
+    <title>CM Development</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/v4-shims.css">    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body style="background-color: #000;">
+    <!-- Nav Bar-->
+    <nav class="navbar navbar-expand-md navbar-dark ">
+        <div class="container justify-content-center">
+            <a class="navbar-brand cm" href="main.html">CM Development</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="justify-content-end collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bio"> <span class="r"><i class="fas fa-portrait"></i> Bio</span></a>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a class="nav-link"> <span class="g">-</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery"><span class="b"><i class="fas fa-camera"></i> Gallery</span></a>
+                    </li>
+                
+                    <li class="nav-item">
+                        <a class="nav-link"> <span class="g">-</span></a>
+                    </li>
+
+                    <!--<li class="nav-item">
+                        <a class="nav-link" href="./html/projects.html"><span class="g"><i class="fas fa-folder"></i> Projects</span></a>
+                    </li>-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="mailto:The.developer.cm@gmail.com"><span class="p"><i class="far fa-address-book"></i> Contact</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mini Bio-->
+    <div class="bio mt-5  container">
+        <div class="row featurette text-center">
+            <div class="col-md-7">
+              <h5 class="cm col card-title pt-4"><span class="p">CM Development</span></h5>
+              <h2 class="featurette-heading"><span class="r">Photographer</span> <span class="g">Videographer</span> <span class="b">Web Developer</span></h2>
+              <p class="lead text-light text-left pl-5 pr-5"> <br> My Name is <span class="y">Christopher Michael</span>. The founder of <span class="cmb">CM Development</span>. I've been making <span class="b"> Websites</span> <i class="fas fa-laptop-code"></i>
+                for some time now and I just branched out to takeing <span class="r">Photos</span> & <span class="g"> Videos </span><i class="fas fa-photo-video"></i>. This website will serve as a host, for me to desplay my creations. <br> <br>If you are ever in need of a Photographer, Videographer or Web Developer Dont be afraid to E-mail me! <i class="fas fa-at"></i></p>
+              <a href="mailto:The.developer.cm@gmail.com" class="btn btn-secondary p mt-3 mb-4">Email</a>
+            </div>
+            <div class="col-md-5 align-self-center">
+              <img style="border-radius: 10px;" class="img-fluid mx-auto" alt="500x500" src="./img/IMG_0117.JPG">
+            </div>
+        </div> 
+    </div>
+
+     <!--Slide Show-->
+     <div id="carouselExampleIndicators" class=" container carousel slide" data-ride="carousel">
+        <h1 class="text-center mt-5 mb-5">Photographer's Choice</h1>
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="../img/IMG_1021.JPG" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../img/IMG_0459.JPG" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="../img/IMG_0099.JPG" alt="Third slide">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+    </div>
+    
+    <!-- Gallery-->
+    <div id="gallery" class="container mt-5 " style="background-color: #000;">
+        <h1 class="text-center mt-5 mb-5">Full Gallery</h1>
+        <!--Solo-->
+        <div class="row"> 
+            <div class="col">
+                <img class="im" src="./img/IMG_1170.JPG" alt=""> 
+            </div>
+        </div>
+        
+        <!--3-->
+        <div class="row justify-content-center">
+            <div class="col-md-3 mt-5 align-self-center">
+                <img class="im" src="../img/IMG_0570.JPG" alt=""> 
+            </div>
+
+            <div class="col-md-6 mt-5">
+                <img class="im" src="../img/IMG_0435.JPG" alt=""> 
+            </div> 
+        
+            <div class="col-md-3 mt-5 align-self-center">
+                <img class="im" src="../img/IMG_0454.JPG" alt=""> 
+            </div>
+        </div>
+        
+        <!--3-->
+        <div class="row">
+            <div class="col-md-4 mt-5">
+                <img class="im" src="./img/IMG_0027.JPG" alt="">    
+            </div>
+    
+            <div class="col-md-4 mt-5">
+                <img class="im" src="./img/IMG_0508.JPG" alt=""> 
+            </div>
+    
+            <div class="col-md-4 mt-5">
+                <img class="im" src="./img/IMG_0025.JPG" alt="">    
+            </div>
+        </div>
+        
+        <!--Solo-->
+        <div class="row"> 
+            <div class="col mt-5">
+                <img class="im" src="./img/IMG_0558.JPG" alt=""> 
+            </div>
+        </div>
+        
+        <!--2-->
+         <div class="row">
+            <div class="col-md-4 mt-5 align-self-center">
+                <img class="im" src="../img/IMG_1319.JPG" alt=""> 
+            </div> 
+            
+            <div class="col-md-4 mt-5">
+                <img class="im" src="../img/IMG_0447.JPG" alt=""> 
+            </div>
+            
+            <div class="col-md-4 mt-5 align-self-center">
+                <img class="im" src="../img/IMG_1364.JPG" alt=""> 
+            </div> 
+        </div>
+        
+        <!--2-->
+        <div class="row"> 
+            <div class="col-md-6 mt-5">
+                <img class="im" src="../img/IMG_0089.JPG" alt="">    
+            </div>
+
+            <div class="col-md-6 mt-5">
+                <img class="im" src="../img/IMG_0492.JPG" alt=""> 
+            </div> 
+        </div>
+
+         <!--3-->
+         <div class="row">
+            <div class="col-md-4 mt-5">
+                <img class="im" src="./img/IMG_0096.JPG" alt="">    
+            </div>
+    
+            <div class="col-md-4 mt-5">
+                <img class="im" src="./img/IMG_0509.JPG" alt=""> 
+            </div>
+    
+            <div class="col-md-4 mt-5">
+                <img class="im" src="./img/IMG_0103.JPG" alt="">    
+            </div>
+        </div>
+        
+        <!--2-->
+        <div class="row">
+            <div class="col-md-6 mt-5">
+                <img class="im" src="../img/IMG_0276.JPG" alt=""> 
+            </div>  
+            <div class="col-md-6 mt-5">
+                <img class="im" src="../img/IMG_0453.JPG" alt=""> 
+            </div> 
+        </div>
+        <!--1-->
+        <div class="row justify-content-center">
+            <div class="col-md-9 mt-5 mb-5">
+                <img class="im" src="../img/IMG_1814.JPG" alt=""> 
+            </div> 
+        </div>
+    </div>
+
+    <!--Bio-->
+    <h1 class="bheading mb-5 text-center">Bio</h1>
+    <div id="bio" class=" mt-5 mb-5 container"> 
+        <div class="bb row justify-content-center">
+            <div class="col-md-3">
+                <img class="w-100" src="./img/cm_logo_no_bg.png" alt=""> 
+            </div>
+            <div class="col-md-9 align-self-center">
+                <p class="lead text-light text-left"> Motivation, Ambition, determination, and faith, are all Ct Native Need in order to excel. 
+                    Hustle-minded, fast paced industry. Christopher Micheal was born in Danbury CT and raised in Norwalk CT on August 28, 1999. 
+                    Growing up, he had many influences to help drive him into being self Employed. His influences were Steve Jobs, Elon Musk, Mark Zuckerberg. 
+                    Christopher began developoing websites at the age of 16, Creating and redesigning websites he saw in highscghool. He also took a class for Web Design his junior year of High School. 
+                    At that moment he found his desire to become a professional. He has created 4 actual sites for clients so far. Example of past clients are, Contruction Company, Musical Artist, Dj and a Car Mecanic. 
+                    Christopher Micheal is still on his grind to the top, and absolutely nothing stopping him From keeping his ambition.</p>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <div class=" footer container-expand mb-2">
+        <div class="row d-flex justify-content-center text-center">
+            <div class="col-md-3 pt-3">        
+                <h2 class="cm bottomHeader"> <a style="color:#fff;" href="main.html">CM Development</a> </h2>
+            </div>
+            
+            <div class="col-md-3">
+                <i style="color: #00acee; "class="pt-4 fab fa-twitter"></i>
+            </div>
+    
+            <div class="col-md-3">
+                <i style="color: #405de6;" class="pt-4 fab fa-instagram"></i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

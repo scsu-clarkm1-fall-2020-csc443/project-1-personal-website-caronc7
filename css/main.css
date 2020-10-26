@@ -1,0 +1,95 @@
+@font-face{
+    font-family: Megrim; 
+    src: url('../fonts/Megrim-Regular.ttf');
+}
+/**/
+nav{
+    background-color: #000;
+    border-bottom: 2px solid #ffff6b;
+}
+
+.footer{
+    background-color: #000;
+    border-top: 2px solid #ffff6b;
+}
+
+/* All containers */
+.container{
+    background-color: #000;
+}
+
+/* CM Dev */
+.cm{
+    font-family: 'Megrim';
+    font-size: xx-large;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.lead .cmb{
+    font-family: 'Megrim';
+    text-transform: uppercase;
+}
+
+/*New topic*/
+#carouselExampleIndicators h1, .container h1, .contact h2, .bheading{ 
+    color: #fff;
+    text-decoration: #ffff6b double underline;
+    text-transform: uppercase;
+}
+
+/*All border*/
+.carousel-inner, .contact, .bio ,.bb{
+    border-top: 2px solid #ff7575;
+    border-bottom: 2px solid #8adafa;
+    border-right: 2px solid #ce89fd;
+    border-left: 2px solid #aafd6b;
+    border-radius: 10px;
+}
+
+/* ths is for the color for the brand name */
+.r{
+    color: #ff7575;
+}
+
+.b{
+    color: #8adafa;
+}
+
+.y{
+    color: #ffff6b;
+}
+
+.g{
+    color: #aafd6b;
+}
+
+.p{
+    color: #ce89fd;
+}
+
+.im{
+    border-radius: 10px;
+    width: 100%;
+    border-top: 2px solid #ff7575;
+    border-bottom: 2px solid #8adafa;
+    border-right: 2px solid #ce89fd;
+    border-left: 2px solid #aafd6b;
+}
+
+/*Hover*/
+.r:hover, .b:hover, .y:hover, .g:hover, .p:hover, .navbar-brand:hover, .im:hover{
+    opacity: .7;
+}
+
+.bio{
+    padding: 10px;
+    margin-bottom: 5%;
+    border-top: 2px solid #ff7575;
+    border-bottom: 2px solid #8adafa;
+    border-right: 2px solid #ce89fd;
+    border-left: 2px solid #aafd6b;
+}
+
+.contact{
+    color: #fff;
+}
