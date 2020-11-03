@@ -5,12 +5,12 @@
 /**/
 nav{
     background-color: #000;
-    border-bottom: 2px solid #ffff6b;
+    border-bottom: 2px solid #fff;
 }
 
 .footer{
     background-color: #000;
-    border-top: 2px solid #ffff6b;
+    border-top: 2px solid #fff;
 }
 
 /* All containers */
@@ -32,18 +32,17 @@ nav{
 
 /*New topic*/
 #carouselExampleIndicators h1, .container h1, .contact h2, .bheading{ 
-    color: #fff;
-    text-decoration: #ffff6b double underline;
+    color: lightgray;
+    text-decoration: lightgrey underline;
     text-transform: uppercase;
 }
 
 /*All border*/
-.carousel-inner, .contact, .bio ,.bb{
-    border-top: 2px solid #ff7575;
-    border-bottom: 2px solid #8adafa;
+.contact, .bio,.bb{
+   /* border-top: 2px solid #ff7575;
+    border-bottom: 2px solid #8adafa; */
     border-right: 2px solid #ce89fd;
     border-left: 2px solid #aafd6b;
-    border-radius: 10px;
 }
 
 /* ths is for the color for the brand name */
@@ -70,10 +69,10 @@ nav{
 .im{
     border-radius: 10px;
     width: 100%;
-    border-top: 2px solid #ff7575;
+    /*border-top: 2px solid #ff7575;
     border-bottom: 2px solid #8adafa;
     border-right: 2px solid #ce89fd;
-    border-left: 2px solid #aafd6b;
+    border-left: 2px solid #aafd6b;*/
 }
 
 /*Hover*/
@@ -84,8 +83,8 @@ nav{
 .bio{
     padding: 10px;
     margin-bottom: 5%;
-    border-top: 2px solid #ff7575;
-    border-bottom: 2px solid #8adafa;
+    /*border-top: 2px solid #ff7575;
+    border-bottom: 2px solid #8adafa;*/
     border-right: 2px solid #ce89fd;
     border-left: 2px solid #aafd6b;
 }
