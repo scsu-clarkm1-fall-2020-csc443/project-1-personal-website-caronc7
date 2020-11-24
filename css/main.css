@@ -3,8 +3,18 @@
     src: url('../fonts/Megrim-Regular.ttf');
 }
 /**/
+
+body{
+    background-image: url("../img/IMG_0570.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50%;
+}
+.headHeader a{
+    margin-top: 5%;
+    font-size: 50px;
+}
 nav{
-    background-color: #000;
     border-bottom: 2px solid #fff;
 }
 
@@ -15,7 +25,6 @@ nav{
 
 /* All containers */
 .container{
-    background-color: #000;
 }
 
 /* CM Dev */
@@ -41,8 +50,8 @@ nav{
 .contact, .bio,.bb{
    /* border-top: 2px solid #ff7575;
     border-bottom: 2px solid #8adafa; */
-    border-right: 2px solid #ce89fd;
-    border-left: 2px solid #aafd6b;
+    border-right: 2px solid /*#ce89fd*/ #fff;
+    border-left: 2px solid /*#aafd6b*/ #fff;
 }
 
 /* ths is for the color for the brand name */
@@ -76,7 +85,7 @@ nav{
 }
 
 /*Hover*/
-.r:hover, .b:hover, .y:hover, .g:hover, .p:hover, .navbar-brand:hover, .im:hover{
+.r:hover, .b:hover, .y:hover, .g:hover, .p:hover, .navbar-brand:hover{
     opacity: .7;
 }
 
@@ -85,8 +94,8 @@ nav{
     margin-bottom: 5%;
     /*border-top: 2px solid #ff7575;
     border-bottom: 2px solid #8adafa;*/
-    border-right: 2px solid #ce89fd;
-    border-left: 2px solid #aafd6b;
+    border-right: 2px solid /*#ce89fd*/ #fff;
+    border-left: 2px solid /*#aafd6b*/ #fff;
 }
 
 .contact{
